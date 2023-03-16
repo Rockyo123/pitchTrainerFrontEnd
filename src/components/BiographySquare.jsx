@@ -21,7 +21,7 @@ export const BiographySquare = (props) => {
             close = {setModal}
            />
 
-        <div class= "cursor-pointer shadow-2xl pb-[1%] pt-[1%] rounded-lg bg-slate-600 mx-auto hover:transition-all hover:bg-slate-500 w-full sm:w-4/10 md:w-4/10 lg:w-1/5 xl:w-1/5" onClick = {() => handleClick()}>
+        <div class= "cursor-pointer shadow-2xl pb-[1%] pt-[1%] rounded-lg bg-slate-600 mx-auto hover:transition-all ease-in-out delay-150 hover:bg-slate-500 w-full sm:w-4/10 md:w-4/10 lg:w-1/5 xl:w-1/5" onClick = {() => handleClick()}>
             <button type="button" onClick={() => props.onPress}></button>
             <img 
             class="w-1/2 rounded-full mx-auto shadow-2xl drop-shadow-2xl"

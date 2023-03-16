@@ -19,7 +19,7 @@ export const GraphSquare = (props) => {
             Title = "Your Progress"
         />
 
-        <div className = "cursor-pointer shadow-2xl mx-[5%] my-[2%] rounded-lg bg-slate-800 hover:transition-all hover:bg-slate-600 w-[90%] h-[90%]" onClick = {() => handleClick()}>
+        <div className = "cursor-pointer shadow-2xl mx-[5%] my-[2%] rounded-lg bg-slate-800 hover:transition-all ease-in-out delay-150 hover:bg-slate-600 w-[90%] h-[90%]" onClick = {() => handleClick()}>
             {<button type="button" onClick={() => props.onPress}></button>}
             {/*title*/}
             <div className = "text-gray-200 text-2xl text-center font-semibold">
